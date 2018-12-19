@@ -42,11 +42,11 @@ class Binary < T extends Number > {
   int res = rank(val, list, 0, list.size() - 1);
 
   if (res == -1)
-   System.out.println("Çíà÷åííÿ " + val +
-    " â³äñóòíº ó ìàñèâ³.");
+   System.out.println("Значення " + val +
+    " відсутнє у масиві.");
   else
-   System.out.println("×èñëî " + val +
-    " çíàõîäèòüñÿ íà " + res + " ïîçèö³¿.");
+   System.out.println("Число " + val +
+    " знаходиться на " + res + " позиції.");
  }
 
  private int rank(int val, List < T > arr, int lo, int hi) {
